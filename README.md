@@ -12,10 +12,11 @@ pip install .
 ### From repository
 ```bash
 # Install directly from the repository
-pip install git+hhttps://github.com/david-perez-mars-capital/database.git
+
+pip install "git+https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/david-perez-mars-capital/database.git"
 
 # Or clone and install
-git clone https://github.com/david-perez-mars-capital/database
+git clone "git+https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/david-perez-mars-capital/database.git"
 cd database
 pip install .
 ```
@@ -40,6 +41,8 @@ DB_SERVER=your-server.database.windows.net
 DB_DATABASE=your_database
 DB_USER=your_username
 DB_PASSWORD=your_password
+GITHUB_USER = Your Github User
+GITHUB_TOKEN = Your Github token
 ```
 
 ## Usage
