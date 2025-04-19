@@ -12,10 +12,10 @@ pip install .
 ### From repository
 ```bash
 # Install directly from the repository
-pip install git+https://github.com/your-username/database.git
+pip install git+hhttps://github.com/david-perez-mars-capital/database.git
 
 # Or clone and install
-git clone https://github.com/your-username/database.git
+git clone https://github.com/david-perez-mars-capital/database
 cd database
 pip install .
 ```
